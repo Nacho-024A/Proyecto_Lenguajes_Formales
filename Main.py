@@ -19,7 +19,7 @@ def mostrar_encabezado():
         [Fore.LIGHTGREEN_EX + "Autores:" + Style.RESET_ALL, "Andres Osorio - William Villa - Gisel Jaramillo"],
         [Fore.LIGHTGREEN_EX + "Universidad:" + Style.RESET_ALL, "EAFIT"],
         [Fore.LIGHTGREEN_EX + "Asignatura:" + Style.RESET_ALL, "Lenguajes Formales (Clase 5464)"],
-        [Fore.LIGHTGREEN_EX + "Versión:" + Style.RESET_ALL, "2.3 — Noviembre 2025"],
+        [Fore.LIGHTGREEN_EX + "Versión:" + Style.RESET_ALL, "2.4 — Noviembre 2025"],
         [Fore.LIGHTGREEN_EX + "Descripción:" + Style.RESET_ALL, "Implementación modular de analizadores LL(1) y SLR(1) con salida formateada."]
     ]
 
@@ -217,3 +217,4 @@ def menu():
 if __name__ == "__main__":
     mostrar_encabezado()
     menu()
+
